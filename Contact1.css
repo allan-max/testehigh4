@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+p {
+  text-align: center;
+}
+p a {
+  position: relative;
+  left: 0%;
+  color: white;
+  top: 40px;
+  font-size: xx-large;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+.logo {
+  text-align: center;
+  left: 50%;
+}
+body {
+  background-color: black;
+}
+
+/* Estilização da Navbar */
+.navbar {
+  background-color: black;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+/* a cima e a nav bar */
+
+.produtos-coluna {
+  text-align: left;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.produtos-coluna img {
+  margin-right: 60px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.product__link {
+  text-decoration: none;
+  color: aliceblue;
+  display: inline-block; /* Define as imagens como elementos de bloco em linha */
+  margin-right: 15px; /* Adiciona um espaço entre as imagens (opcional) */
+}
